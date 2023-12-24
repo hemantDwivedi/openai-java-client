@@ -3,8 +3,8 @@ package com.javaclt.openaijavaclient.model;
 import java.util.List;
 
 public class OpenaiChatCompletion {
-    private List<RoleContent> messages;
     private String model;
+    private List<RoleContent> messages;
 
     public OpenaiChatCompletion() {
     }
